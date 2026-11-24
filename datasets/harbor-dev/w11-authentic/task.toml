@@ -1,0 +1,7 @@
+schema_version = "1.4"
+[environment]
+network_mode = "no-network"
+[agent]
+timeout_sec = 300
+[verifier]
+timeout_sec = 60

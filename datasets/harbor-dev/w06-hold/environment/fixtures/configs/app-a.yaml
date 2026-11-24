@@ -1,0 +1,11 @@
+service: app-a
+auth:
+  password_min_length: 12
+  password_max_age: 180
+  session_timeout_days: 30
+  admin_mfa: false
+  lockout_threshold: 5
+observability:
+  audit_logging_level: warn
+transport:
+  tls_min_version: 1.2

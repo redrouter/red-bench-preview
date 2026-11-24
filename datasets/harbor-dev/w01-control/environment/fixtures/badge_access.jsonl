@@ -1,0 +1,4 @@
+{"ts": "2026-03-14T08:01:22+01:00", "user": "ops-admin", "door": "LAB-B-ENTRY", "result": "granted"}
+{"ts": "2026-03-14T13:41:19+01:00", "user": "ops-admin", "door": "LAB-B-EXIT", "result": "granted"}
+{"ts": "2026-03-14T15:01:04+01:00", "user": "ops-admin", "door": "LAB-B-ENTRY", "result": "granted"}
+{"ts": "2026-03-14T15:58:40+01:00", "user": "ops-admin", "door": "LAB-B-EXIT", "result": "granted"}

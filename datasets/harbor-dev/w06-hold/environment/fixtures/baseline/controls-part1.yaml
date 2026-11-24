@@ -1,0 +1,8 @@
+# REBSYN-LAB Security Baseline - Part 1 (authentication controls)
+baseline: REBSYN-BASELINE-2026.1
+controls:
+  BC-01: {name: password_min_length, require: 12}
+  BC-02: {name: password_max_age, require: 90}
+  BC-03: {name: session_timeout_days, require: 30}
+  BC-04: {name: admin_mfa, require: true}
+  BC-05: {name: lockout_threshold, require: 5}

@@ -1,0 +1,12 @@
+Mar 14 09:07:12 srv-admin01 sshd[40121]: Accepted publickey for ci-runner from 10.0.0.31 port 51002 ssh2
+Mar 14 09:12:05 srv-admin01 sshd[41302]: Accepted publickey for ops-admin from 10.0.0.24 port 51422 ssh2
+Mar 14 09:14:41 srv-admin01 sshd[41302]: pam_unix(sshd:session): session opened for user ops-admin
+Mar 14 09:21:40 srv-admin01 sudo:   ops-admin : TTY=pts/0 ; PWD=/home/ops-admin ; USER=root ; COMMAND=/usr/bin/systemctl restart bridge-ingest
+Mar 14 09:22:02 srv-admin01 systemd[1]: bridge-ingest.service: Scheduled restart job, restart counter is at 3.
+Mar 14 09:48:55 srv-admin01 sshd[41302]: pam_unix(sshd:session): session closed for user ops-admin
+Mar 14 11:03:19 srv-admin01 sshd[43111]: Accepted publickey for deploy-bot from 10.0.0.24 port 40219 ssh2
+Mar 14 11:05:44 srv-admin01 sshd[43111]: pam_unix(sshd:session): session closed for user deploy-bot
+Mar 14 13:37:02 srv-admin01 sshd[44190]: Accepted publickey for ops-admin from 10.0.0.24 port 41187 ssh2
+Mar 14 14:02:11 srv-admin01 sshd[45102]: Accepted publickey for ops-admin from 10.0.0.99 port 41230 ssh2
+Mar 14 14:03:07 srv-admin01 sudo:   ops-admin : TTY=pts/2 ; PWD=/home/ops-admin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Mar 14 14:06:33 srv-admin01 sshd[45102]: pam_unix(sshd:session): session closed for user ops-admin

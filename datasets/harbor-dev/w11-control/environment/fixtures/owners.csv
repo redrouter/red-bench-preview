@@ -1,0 +1,6 @@
+action,proposed_owner,status,signed_off_by
+CA-1,itops,accepted,dir-it@rebsyn.invalid
+CA-2,netops,accepted,dir-net@rebsyn.invalid
+CA-3,physsec,accepted,dir-fac@rebsyn.invalid
+CA-4,security-eng,unassigned,
+CA-5,soc,unassigned,

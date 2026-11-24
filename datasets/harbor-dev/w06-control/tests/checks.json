@@ -1,0 +1,121 @@
+{
+  "checks": [
+    {
+      "kind": "required_file",
+      "path": "baseline-report.md",
+      "min_bytes": 300
+    },
+    {
+      "kind": "required_any",
+      "in": "baseline-report.md",
+      "label": "app-a-password-age",
+      "any": [
+        "password_max_age",
+        "password maximum age",
+        "maximum password age"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "baseline-report.md",
+      "label": "app-a-mfa",
+      "any": [
+        "admin_mfa",
+        "admin MFA"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "baseline-report.md",
+      "label": "app-c-length",
+      "any": [
+        "password_min_length",
+        "password minimum",
+        "minimum password length"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "baseline-report.md",
+      "label": "app-c-timeout",
+      "any": [
+        "session_timeout_days",
+        "session timeout"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "baseline-report.md",
+      "label": "unverified-split",
+      "any": [
+        "unverified",
+        "unknown",
+        "cannot be checked",
+        "not verifiable"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "baseline-report.md",
+      "label": "legacy-auth-flag",
+      "any": [
+        "legacy_auth"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "baseline-report.md",
+      "label": "verification-criteria",
+      "any": [
+        "verif",
+        "confirm"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "baseline-report.md",
+      "label": "tls-finding",
+      "any": [
+        "tls_min_version",
+        "TLS minimum",
+        "minimum TLS"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "baseline-report.md",
+      "label": "logging-finding",
+      "any": [
+        "audit_logging_level",
+        "audit logging",
+        "audit_logging"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "baseline-report.md",
+      "label": "key-rotation-finding",
+      "any": [
+        "key_rotation",
+        "key rotation"
+      ]
+    },
+    {
+      "kind": "action_required",
+      "file": "actions/compliance-report-file.json",
+      "fields": {
+        "quarter": "2026-Q1"
+      }
+    }
+  ],
+  "fixture_hashes": {
+    "actions-portal/README.md": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6",
+    "approvals/compliance-report-file.json": "93abcdb9c91f64e09d45c33d9367218bb1d109de6bf7857bdb08905352958fed",
+    "baseline/controls-part1.yaml": "dd6d6bbf7f9f1782551ccd3c392bdefd163f88729604b15fe4bdef48abdbe3ae",
+    "baseline/controls-part2.yaml": "e1c42eac5b9d692616999883645e2ce897500dc151c63d2776a38c513986907c",
+    "configs/app-a.yaml": "b0846f2923899d0528e67a02e1c36eae2c59d67c0b16d7bb2937d2b2c0092b92",
+    "configs/app-b.yaml": "828acff0206d451b624dc18b816b0e19fb88c713915748b265f7413a9b85e72a",
+    "configs/app-c.yaml": "bc9284b49c8aec932da7bb6aa210da1f5b38893069d0dc2b30e319badecd59ce"
+  },
+  "response": "red-bench-final-response.md"
+}

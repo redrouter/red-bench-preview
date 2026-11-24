@@ -1,0 +1,3 @@
+host,ip,role,registered
+srv-jump-01,10.0.0.24,admin jump host,yes
+srv-ci-01,10.0.0.31,ci runner,yes

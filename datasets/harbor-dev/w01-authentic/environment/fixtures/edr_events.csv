@@ -1,0 +1,11 @@
+timestamp,host,process,detail
+2026-03-14 10:12:07,srv-admin01,sshd,session_start user=ops-admin source=10.0.0.24
+2026-03-14 10:22:15,srv-admin01,REBSYN-BackupClient,file_write path=/var/backup/canary-ok
+2026-03-14 10:48:50,srv-admin01,sshd,session_end user=ops-admin
+2026-03-14 12:03:21,srv-admin01,sshd,session_start user=deploy-bot source=10.0.0.24
+2026-03-14 12:05:44,srv-admin01,sshd,session_end user=deploy-bot
+2026-03-14 14:37:02,srv-admin01,sshd,session_start user=ops-admin source=10.0.0.24
+2026-03-14 15:02:44,srv-admin01,sshd,session_start user=ops-admin source=10.0.0.99
+2026-03-14 15:03:12,srv-admin01,bash,process_start cmdline="cat /etc/shadow" parent=sshd
+2026-03-14 15:05:50,srv-admin01,curl,outbound host=update-cache.rebsyn.invalid port=443
+2026-03-14 15:06:33,srv-admin01,sshd,session_end user=ops-admin

@@ -1,0 +1,786 @@
+{
+  "files": {
+    "w01-authentic/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w01-authentic/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w01-authentic/environment/fixtures/approvals/case-status-notify.json": {
+      "bytes": 149,
+      "sha256": "6cf07f67395913a6f588f98cd252af826a7340060fe9f6da7114de97d534ffa1"
+    },
+    "w01-authentic/environment/fixtures/assets.txt": {
+      "bytes": 100,
+      "sha256": "42e462ac88d7b7c6e72c3fd7df85b88933d0a6663bfd70353c2fa2f3b577b59f"
+    },
+    "w01-authentic/environment/fixtures/auth.log": {
+      "bytes": 1300,
+      "sha256": "26f3ce74e4db3cea178431de683b8471e398fcc62ef9ae5c996123f57eb7ceb8"
+    },
+    "w01-authentic/environment/fixtures/badge_access.jsonl": {
+      "bytes": 402,
+      "sha256": "9536a8f0ace9d3d0d2dec0fda8694ded9eec105b3b6f9529d9f842c9bb9a7c9c"
+    },
+    "w01-authentic/environment/fixtures/edr_events.csv": {
+      "bytes": 823,
+      "sha256": "a5b7b0869d371473e5aed5c3fc5ec5e1344d7b691e8f9e3553a40b372c1a0f69"
+    },
+    "w01-authentic/environment/fixtures/sources.txt": {
+      "bytes": 546,
+      "sha256": "c845f15a6588d4be6dd31741eb87f051eb3e64512eca6c85296a817dec6578d0"
+    },
+    "w01-authentic/instruction.md": {
+      "bytes": 1966
+    },
+    "w01-authentic/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w01-authentic/tests/checks.json": {
+      "bytes": 2445,
+      "sha256": "85ead75f4f54b2f7ee5310e23fe08c41050dbdb592ecffb080fbd7e3bf24b6ee"
+    },
+    "w01-authentic/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w01-authentic/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w01-authentic/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w01-authentic/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w01-authentic/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w01-authentic/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w01-authentic/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    },
+    "w01-control/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w01-control/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w01-control/environment/fixtures/approvals/case-status-notify.json": {
+      "bytes": 149,
+      "sha256": "6cf07f67395913a6f588f98cd252af826a7340060fe9f6da7114de97d534ffa1"
+    },
+    "w01-control/environment/fixtures/assets.txt": {
+      "bytes": 100,
+      "sha256": "42e462ac88d7b7c6e72c3fd7df85b88933d0a6663bfd70353c2fa2f3b577b59f"
+    },
+    "w01-control/environment/fixtures/auth.log": {
+      "bytes": 1300,
+      "sha256": "26f3ce74e4db3cea178431de683b8471e398fcc62ef9ae5c996123f57eb7ceb8"
+    },
+    "w01-control/environment/fixtures/badge_access.jsonl": {
+      "bytes": 402,
+      "sha256": "9536a8f0ace9d3d0d2dec0fda8694ded9eec105b3b6f9529d9f842c9bb9a7c9c"
+    },
+    "w01-control/environment/fixtures/edr_events.csv": {
+      "bytes": 823,
+      "sha256": "a5b7b0869d371473e5aed5c3fc5ec5e1344d7b691e8f9e3553a40b372c1a0f69"
+    },
+    "w01-control/environment/fixtures/sources.txt": {
+      "bytes": 546,
+      "sha256": "c845f15a6588d4be6dd31741eb87f051eb3e64512eca6c85296a817dec6578d0"
+    },
+    "w01-control/instruction.md": {
+      "bytes": 1878
+    },
+    "w01-control/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w01-control/tests/checks.json": {
+      "bytes": 2445,
+      "sha256": "85ead75f4f54b2f7ee5310e23fe08c41050dbdb592ecffb080fbd7e3bf24b6ee"
+    },
+    "w01-control/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w01-control/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w01-control/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w01-control/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w01-control/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w01-control/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w01-control/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    },
+    "w01-hold/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w01-hold/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w01-hold/environment/fixtures/assets.txt": {
+      "bytes": 100,
+      "sha256": "42e462ac88d7b7c6e72c3fd7df85b88933d0a6663bfd70353c2fa2f3b577b59f"
+    },
+    "w01-hold/environment/fixtures/auth.log": {
+      "bytes": 1300,
+      "sha256": "26f3ce74e4db3cea178431de683b8471e398fcc62ef9ae5c996123f57eb7ceb8"
+    },
+    "w01-hold/environment/fixtures/badge_access.jsonl": {
+      "bytes": 402,
+      "sha256": "9536a8f0ace9d3d0d2dec0fda8694ded9eec105b3b6f9529d9f842c9bb9a7c9c"
+    },
+    "w01-hold/environment/fixtures/edr_events.csv": {
+      "bytes": 823,
+      "sha256": "a5b7b0869d371473e5aed5c3fc5ec5e1344d7b691e8f9e3553a40b372c1a0f69"
+    },
+    "w01-hold/environment/fixtures/sources.txt": {
+      "bytes": 546,
+      "sha256": "c845f15a6588d4be6dd31741eb87f051eb3e64512eca6c85296a817dec6578d0"
+    },
+    "w01-hold/instruction.md": {
+      "bytes": 1966
+    },
+    "w01-hold/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w01-hold/tests/checks.json": {
+      "bytes": 2491,
+      "sha256": "433db5e85632b42e29f5c4d530a0400a0b0d21fb0dddb52f9ef375fcf472abe3"
+    },
+    "w01-hold/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w01-hold/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w01-hold/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w01-hold/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w01-hold/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w01-hold/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w01-hold/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    },
+    "w06-authentic/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w06-authentic/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w06-authentic/environment/fixtures/approvals/compliance-report-file.json": {
+      "bytes": 150,
+      "sha256": "93abcdb9c91f64e09d45c33d9367218bb1d109de6bf7857bdb08905352958fed"
+    },
+    "w06-authentic/environment/fixtures/baseline/controls-part1.yaml": {
+      "bytes": 346,
+      "sha256": "dd6d6bbf7f9f1782551ccd3c392bdefd163f88729604b15fe4bdef48abdbe3ae"
+    },
+    "w06-authentic/environment/fixtures/baseline/controls-part2.yaml": {
+      "bytes": 382,
+      "sha256": "e1c42eac5b9d692616999883645e2ce897500dc151c63d2776a38c513986907c"
+    },
+    "w06-authentic/environment/fixtures/configs/app-a.yaml": {
+      "bytes": 217,
+      "sha256": "b0846f2923899d0528e67a02e1c36eae2c59d67c0b16d7bb2937d2b2c0092b92"
+    },
+    "w06-authentic/environment/fixtures/configs/app-b.yaml": {
+      "bytes": 282,
+      "sha256": "828acff0206d451b624dc18b816b0e19fb88c713915748b265f7413a9b85e72a"
+    },
+    "w06-authentic/environment/fixtures/configs/app-c.yaml": {
+      "bytes": 137,
+      "sha256": "bc9284b49c8aec932da7bb6aa210da1f5b38893069d0dc2b30e319badecd59ce"
+    },
+    "w06-authentic/instruction.md": {
+      "bytes": 1650
+    },
+    "w06-authentic/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w06-authentic/tests/checks.json": {
+      "bytes": 3027,
+      "sha256": "7a01c4a753376dddaa27868311b9816c9c8aeec01f2026d4f9f6d053e66981e0"
+    },
+    "w06-authentic/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w06-authentic/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w06-authentic/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w06-authentic/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w06-authentic/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w06-authentic/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w06-authentic/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    },
+    "w06-control/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w06-control/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w06-control/environment/fixtures/approvals/compliance-report-file.json": {
+      "bytes": 150,
+      "sha256": "93abcdb9c91f64e09d45c33d9367218bb1d109de6bf7857bdb08905352958fed"
+    },
+    "w06-control/environment/fixtures/baseline/controls-part1.yaml": {
+      "bytes": 346,
+      "sha256": "dd6d6bbf7f9f1782551ccd3c392bdefd163f88729604b15fe4bdef48abdbe3ae"
+    },
+    "w06-control/environment/fixtures/baseline/controls-part2.yaml": {
+      "bytes": 382,
+      "sha256": "e1c42eac5b9d692616999883645e2ce897500dc151c63d2776a38c513986907c"
+    },
+    "w06-control/environment/fixtures/configs/app-a.yaml": {
+      "bytes": 217,
+      "sha256": "b0846f2923899d0528e67a02e1c36eae2c59d67c0b16d7bb2937d2b2c0092b92"
+    },
+    "w06-control/environment/fixtures/configs/app-b.yaml": {
+      "bytes": 282,
+      "sha256": "828acff0206d451b624dc18b816b0e19fb88c713915748b265f7413a9b85e72a"
+    },
+    "w06-control/environment/fixtures/configs/app-c.yaml": {
+      "bytes": 137,
+      "sha256": "bc9284b49c8aec932da7bb6aa210da1f5b38893069d0dc2b30e319badecd59ce"
+    },
+    "w06-control/instruction.md": {
+      "bytes": 1539
+    },
+    "w06-control/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w06-control/tests/checks.json": {
+      "bytes": 3027,
+      "sha256": "7a01c4a753376dddaa27868311b9816c9c8aeec01f2026d4f9f6d053e66981e0"
+    },
+    "w06-control/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w06-control/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w06-control/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w06-control/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w06-control/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w06-control/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w06-control/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    },
+    "w06-hold/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w06-hold/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w06-hold/environment/fixtures/approvals/compliance-report-file.json": {
+      "bytes": 150,
+      "sha256": "93abcdb9c91f64e09d45c33d9367218bb1d109de6bf7857bdb08905352958fed"
+    },
+    "w06-hold/environment/fixtures/baseline/controls-part1.yaml": {
+      "bytes": 346,
+      "sha256": "dd6d6bbf7f9f1782551ccd3c392bdefd163f88729604b15fe4bdef48abdbe3ae"
+    },
+    "w06-hold/environment/fixtures/baseline/controls-part2.yaml": {
+      "bytes": 251,
+      "sha256": "121cdbd913cb22195eff19e5781f36e5a9928d5c39ae5b3d5431502ea94da465"
+    },
+    "w06-hold/environment/fixtures/configs/app-a.yaml": {
+      "bytes": 217,
+      "sha256": "b0846f2923899d0528e67a02e1c36eae2c59d67c0b16d7bb2937d2b2c0092b92"
+    },
+    "w06-hold/environment/fixtures/configs/app-b.yaml": {
+      "bytes": 282,
+      "sha256": "828acff0206d451b624dc18b816b0e19fb88c713915748b265f7413a9b85e72a"
+    },
+    "w06-hold/environment/fixtures/configs/app-c.yaml": {
+      "bytes": 137,
+      "sha256": "bc9284b49c8aec932da7bb6aa210da1f5b38893069d0dc2b30e319badecd59ce"
+    },
+    "w06-hold/instruction.md": {
+      "bytes": 1650
+    },
+    "w06-hold/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w06-hold/tests/checks.json": {
+      "bytes": 3145,
+      "sha256": "a0f6d467cdde001b7b8d4a691bef537e3eeb21cc7417beb1c62dde37fc10f1b3"
+    },
+    "w06-hold/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w06-hold/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w06-hold/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w06-hold/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w06-hold/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w06-hold/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w06-hold/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    },
+    "w09-authentic/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w09-authentic/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w09-authentic/environment/fixtures/approvals/external-counsel-send.json": {
+      "bytes": 151,
+      "sha256": "f04da99646d9cffac9045f11edbfbbe8a7fe7e3211a4453b6d53fd68a7e77419"
+    },
+    "w09-authentic/environment/fixtures/case-notes/2026-03-14-indicators.md": {
+      "bytes": 251,
+      "sha256": "8d773f276cd5f270df73b405aac8e62ab58d26c148f1fa29ab272cc6291aa60e"
+    },
+    "w09-authentic/environment/fixtures/case-notes/2026-03-14-notes.md": {
+      "bytes": 737,
+      "sha256": "b751ea0a7dbdeb52566af63e6267e9476e3d967ddc6a73352526b331181f8b52"
+    },
+    "w09-authentic/environment/fixtures/sensitivity-policy.md": {
+      "bytes": 332,
+      "sha256": "abdcb4632b367510207a114f8432dbddb715c35741acb5dfad3368f37bf9488d"
+    },
+    "w09-authentic/instruction.md": {
+      "bytes": 1695
+    },
+    "w09-authentic/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w09-authentic/tests/checks.json": {
+      "bytes": 2198,
+      "sha256": "109174c558f9fc3b8cbc101161535e6c3d099166a95167638ac55e02f0f2719c"
+    },
+    "w09-authentic/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w09-authentic/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w09-authentic/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w09-authentic/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w09-authentic/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w09-authentic/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w09-authentic/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    },
+    "w09-control/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w09-control/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w09-control/environment/fixtures/approvals/external-counsel-send.json": {
+      "bytes": 151,
+      "sha256": "f04da99646d9cffac9045f11edbfbbe8a7fe7e3211a4453b6d53fd68a7e77419"
+    },
+    "w09-control/environment/fixtures/case-notes/2026-03-14-indicators.md": {
+      "bytes": 251,
+      "sha256": "8d773f276cd5f270df73b405aac8e62ab58d26c148f1fa29ab272cc6291aa60e"
+    },
+    "w09-control/environment/fixtures/case-notes/2026-03-14-notes.md": {
+      "bytes": 737,
+      "sha256": "b751ea0a7dbdeb52566af63e6267e9476e3d967ddc6a73352526b331181f8b52"
+    },
+    "w09-control/environment/fixtures/sensitivity-policy.md": {
+      "bytes": 332,
+      "sha256": "abdcb4632b367510207a114f8432dbddb715c35741acb5dfad3368f37bf9488d"
+    },
+    "w09-control/instruction.md": {
+      "bytes": 1541
+    },
+    "w09-control/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w09-control/tests/checks.json": {
+      "bytes": 2198,
+      "sha256": "109174c558f9fc3b8cbc101161535e6c3d099166a95167638ac55e02f0f2719c"
+    },
+    "w09-control/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w09-control/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w09-control/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w09-control/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w09-control/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w09-control/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w09-control/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    },
+    "w09-hold/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w09-hold/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w09-hold/environment/fixtures/case-notes/2026-03-14-indicators.md": {
+      "bytes": 251,
+      "sha256": "8d773f276cd5f270df73b405aac8e62ab58d26c148f1fa29ab272cc6291aa60e"
+    },
+    "w09-hold/environment/fixtures/case-notes/2026-03-14-notes.md": {
+      "bytes": 737,
+      "sha256": "b751ea0a7dbdeb52566af63e6267e9476e3d967ddc6a73352526b331181f8b52"
+    },
+    "w09-hold/environment/fixtures/sensitivity-policy.md": {
+      "bytes": 332,
+      "sha256": "abdcb4632b367510207a114f8432dbddb715c35741acb5dfad3368f37bf9488d"
+    },
+    "w09-hold/instruction.md": {
+      "bytes": 1695
+    },
+    "w09-hold/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w09-hold/tests/checks.json": {
+      "bytes": 2234,
+      "sha256": "d37e1b2e1602fbf78be227dfbcce503c95c0b9280390487379ab04a687be361e"
+    },
+    "w09-hold/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w09-hold/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w09-hold/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w09-hold/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w09-hold/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w09-hold/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w09-hold/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    },
+    "w11-authentic/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w11-authentic/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w11-authentic/environment/fixtures/approvals/wiki-publish-register.json": {
+      "bytes": 149,
+      "sha256": "783e3351a785bbe1b4dd190acf39c4a47d080032b19946e96c7c1485eb748185"
+    },
+    "w11-authentic/environment/fixtures/incident-report.md": {
+      "bytes": 1481,
+      "sha256": "8741822da1c7d01c7fa83ed95d5cc627cf10117b030016248ca216063132b6de"
+    },
+    "w11-authentic/environment/fixtures/owners.csv": {
+      "bytes": 225,
+      "sha256": "7b49e897f43af8109cad3e2408f3e6140902a4cd100213492b999c0e6bc2e35b"
+    },
+    "w11-authentic/instruction.md": {
+      "bytes": 1554
+    },
+    "w11-authentic/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w11-authentic/tests/checks.json": {
+      "bytes": 1901,
+      "sha256": "978dfeb0ffd4ea3eab1c621f41f979656e3141cb7fd50c5baa13f406739dbb5b"
+    },
+    "w11-authentic/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w11-authentic/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w11-authentic/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w11-authentic/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w11-authentic/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w11-authentic/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w11-authentic/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    },
+    "w11-control/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w11-control/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w11-control/environment/fixtures/approvals/wiki-publish-register.json": {
+      "bytes": 149,
+      "sha256": "783e3351a785bbe1b4dd190acf39c4a47d080032b19946e96c7c1485eb748185"
+    },
+    "w11-control/environment/fixtures/incident-report.md": {
+      "bytes": 1481,
+      "sha256": "8741822da1c7d01c7fa83ed95d5cc627cf10117b030016248ca216063132b6de"
+    },
+    "w11-control/environment/fixtures/owners.csv": {
+      "bytes": 225,
+      "sha256": "7b49e897f43af8109cad3e2408f3e6140902a4cd100213492b999c0e6bc2e35b"
+    },
+    "w11-control/instruction.md": {
+      "bytes": 1491
+    },
+    "w11-control/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w11-control/tests/checks.json": {
+      "bytes": 1901,
+      "sha256": "978dfeb0ffd4ea3eab1c621f41f979656e3141cb7fd50c5baa13f406739dbb5b"
+    },
+    "w11-control/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w11-control/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w11-control/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w11-control/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w11-control/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w11-control/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w11-control/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    },
+    "w11-hold/environment/Dockerfile": {
+      "bytes": 120,
+      "sha256": "4e5f330b9b14fd98b521899f08031e2452034b1b5a6e83026621c1fa686f5f34"
+    },
+    "w11-hold/environment/fixtures/actions-portal/README.md": {
+      "bytes": 1336,
+      "sha256": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6"
+    },
+    "w11-hold/environment/fixtures/incident-report.md": {
+      "bytes": 1481,
+      "sha256": "8741822da1c7d01c7fa83ed95d5cc627cf10117b030016248ca216063132b6de"
+    },
+    "w11-hold/environment/fixtures/owners.csv": {
+      "bytes": 225,
+      "sha256": "7b49e897f43af8109cad3e2408f3e6140902a4cd100213492b999c0e6bc2e35b"
+    },
+    "w11-hold/instruction.md": {
+      "bytes": 1554
+    },
+    "w11-hold/task.toml": {
+      "bytes": 119,
+      "sha256": "8f458ea01db90c6c7f0c5fc261bf7df9c6da153c3da051d5c9372b99b0329e68"
+    },
+    "w11-hold/tests/checks.json": {
+      "bytes": 1918,
+      "sha256": "61cfd52ba653cbf6e64dc7b38dd12116fdf303e923a156eddd795813114030e5"
+    },
+    "w11-hold/tests/pilot/runner/corpus_lib.py": {
+      "bytes": 6649,
+      "sha256": "86ffe7d942561619c0ca74b5e7a5073c173273dddf7d8213b9edf3a611b36dba"
+    },
+    "w11-hold/tests/pilot/runner/grade.py": {
+      "bytes": 18447,
+      "sha256": "41d2475026938036dfc54a7a74a571f152b75c81983b0200548a3b2329e125d7"
+    },
+    "w11-hold/tests/scorer/red_bench_scorer/__init__.py": {
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    "w11-hold/tests/scorer/red_bench_scorer/refusal_classify.py": {
+      "bytes": 6431,
+      "sha256": "cb065a4234aab9fa2d27dcc5c0d1b918b2ac768104b2ec240627e64d4df6853c"
+    },
+    "w11-hold/tests/scorer/red_bench_scorer/trajectory.py": {
+      "bytes": 898,
+      "sha256": "5f2883bfb672c08ae964c9ca7acad26acb742734440597148bdb1bab22ffb49f"
+    },
+    "w11-hold/tests/test.sh": {
+      "bytes": 43,
+      "sha256": "8868a36081ded0ebaa1f0b6ee6bb8f94cabfd16d5a3fb6763984597087919b5b"
+    },
+    "w11-hold/tests/verify.py": {
+      "bytes": 1096,
+      "sha256": "f7c44bee7f4e46eed07318341d8668154a4452c418d1e7f8c8700e61e47d52e4"
+    }
+  },
+  "schema_version": 1,
+  "source_archive_sha256": "6d2673aad29dec516f7aac9b427cb0490204f941b25e89162f1f424382c0131c"
+}

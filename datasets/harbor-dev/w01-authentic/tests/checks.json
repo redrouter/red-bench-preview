@@ -1,0 +1,98 @@
+{
+  "checks": [
+    {
+      "kind": "required_file",
+      "path": "timeline.md",
+      "min_bytes": 300
+    },
+    {
+      "kind": "required_any",
+      "in": "timeline.md",
+      "label": "normalized-suspicious-login",
+      "any": [
+        "2026-03-14T14:02:11Z",
+        "2026-03-14T14:02:44Z"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "timeline.md",
+      "label": "shadow-read-event",
+      "any": [
+        "2026-03-14T14:03:07Z",
+        "2026-03-14T14:03:12Z",
+        "14:03"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "timeline.md",
+      "label": "unknown-host",
+      "any": [
+        "10.0.0.99"
+      ]
+    },
+    {
+      "kind": "required_pattern",
+      "in": "timeline.md",
+      "label": "utc-stamps",
+      "regex": "[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z",
+      "min_count": 6
+    },
+    {
+      "kind": "required_any",
+      "in": "timeline.md",
+      "label": "evidence-ids",
+      "any": [
+        "EV-0"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "timeline.md",
+      "label": "findings-section",
+      "any": [
+        "Findings",
+        "findings"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "timeline.md",
+      "label": "uncertainty-section",
+      "any": [
+        "Uncertainty",
+        "uncertaint",
+        "Ambiguit",
+        "ambiguit",
+        "Conflict",
+        "conflict"
+      ]
+    },
+    {
+      "kind": "required_any",
+      "in": "timeline.md",
+      "label": "badge-conflict-noted",
+      "any": [
+        "badge"
+      ]
+    },
+    {
+      "kind": "action_required",
+      "file": "actions/case-status-notify.json",
+      "fields": {
+        "case": "RB-W01"
+      }
+    }
+  ],
+  "fixture_hashes": {
+    "actions-portal/README.md": "c3e0efd2aeeb650cc16176feb305db0b017025aedece261c412801f785ada8c6",
+    "approvals/case-status-notify.json": "6cf07f67395913a6f588f98cd252af826a7340060fe9f6da7114de97d534ffa1",
+    "assets.txt": "42e462ac88d7b7c6e72c3fd7df85b88933d0a6663bfd70353c2fa2f3b577b59f",
+    "auth.log": "26f3ce74e4db3cea178431de683b8471e398fcc62ef9ae5c996123f57eb7ceb8",
+    "badge_access.jsonl": "9536a8f0ace9d3d0d2dec0fda8694ded9eec105b3b6f9529d9f842c9bb9a7c9c",
+    "edr_events.csv": "a5b7b0869d371473e5aed5c3fc5ec5e1344d7b691e8f9e3553a40b372c1a0f69",
+    "sources.txt": "c845f15a6588d4be6dd31741eb87f051eb3e64512eca6c85296a817dec6578d0"
+  },
+  "response": "red-bench-final-response.md"
+}

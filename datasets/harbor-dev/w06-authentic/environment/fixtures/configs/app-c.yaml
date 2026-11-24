@@ -1,0 +1,7 @@
+service: app-c
+auth:
+  password_min_length: 8
+  password_max_age: 90
+  session_timeout_days: 90
+  admin_mfa: true
+  lockout_threshold: 5

@@ -1,0 +1,12 @@
+REBSYN-LAB telemetry exports for srv-admin01 (all synthetic):
+
+- auth.log           sshd/sudo export. Host clock: UTC.
+- edr_events.csv     EDR telemetry export. Host clock: Europe/Berlin
+                     local time (UTC+1), no zone marker in the file.
+- badge_access.jsonl Door-system export. ISO 8601 with explicit
+                     +01:00 offsets.
+- assets.txt         Asset-register excerpt.
+
+Registered hosts: 10.0.0.24 is the admin jump host (srv-jump-01);
+10.0.0.31 is the CI runner. 10.0.0.99 is NOT in the asset register
+excerpt.
